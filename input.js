@@ -11,7 +11,7 @@ const setupInput = (conn) => {
   stdin.on("data", handleUserInput)
   return stdin;
 };
-console.log(connect().write)
+
 
 const handleUserInput = (key) => {
   if (key === '\u0003') {
